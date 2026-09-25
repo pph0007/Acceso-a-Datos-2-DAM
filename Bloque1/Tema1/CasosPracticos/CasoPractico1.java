@@ -1,12 +1,13 @@
+package CasosPracticos;
 import java.io.File;
 import java.io.IOException;
 
-public class Ejemplo1 {
+public class CasoPractico1 {
     
     public static void main(String[] args) {
         
         File fichero = new File(".\\Tema1\\Ejemplos\\crearFichero.txt");
-        
+            
         try {
             if (fichero.createNewFile()) {
                 System.out.println("Fichero creado: " + fichero.getName());

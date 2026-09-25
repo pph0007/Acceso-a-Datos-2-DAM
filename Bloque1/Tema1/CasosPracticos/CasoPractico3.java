@@ -1,8 +1,9 @@
+package CasosPracticos;
 import java.io.File;
 
 //Ejemplo: crear una carpeta en caso de que no exista
 
-public class Ejemplo3 {
+public class CasoPractico3 {
 
     public static void main(String[] args) {
         

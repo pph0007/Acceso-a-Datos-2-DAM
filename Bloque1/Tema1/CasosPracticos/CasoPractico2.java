@@ -1,6 +1,7 @@
+package CasosPracticos;
 import java.io.File;
 
-public class Ejemplo2 {
+public class CasoPractico2 {
 
     public static void main(String[] args) {
 

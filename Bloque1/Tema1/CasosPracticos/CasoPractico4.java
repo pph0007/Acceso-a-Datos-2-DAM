@@ -1,7 +1,8 @@
+package CasosPracticos;
 import java.io.FileReader;
 import java.io.FileWriter;
 
-public class Ejemplo4 {
+public class CasoPractico4 {
 
     public static void main(String[] args) {
 

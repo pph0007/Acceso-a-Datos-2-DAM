@@ -1,15 +1,16 @@
+package Ejercicios;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
 //Ejemplo de uso de FileInputStream y FileOutputStream
 
-public class Ejemplo5 {
+public class Ejercicio2 {
 
     public static void main(String[] args) {
 
         try {
-            FileInputStream lector = new FileInputStream("./tema1/Ejemplos/medac.png");
-            FileOutputStream escritor = new FileOutputStream("./tema1/Ejemplos/medac_copia.png");
+            FileInputStream lector = new FileInputStream("./tema1/Archivos/medac.png");
+            FileOutputStream escritor = new FileOutputStream("./tema1/Archivos/medac_copia.png");
 
             int data;
             int num = 0;
@@ -21,7 +22,7 @@ public class Ejemplo5 {
             lector.close();
             escritor.close();
             System.out.println(" Lectura correcta");
-            System.out.println(num);
+            System.out.println("Nº de Bytes: " + num);
         } catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
