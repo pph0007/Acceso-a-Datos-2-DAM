@@ -11,7 +11,7 @@ public class Ejercicio3 {
         String archivoNuevo = "datos.txt";
 
         try {
-            FileWriter file = new FileWriter(archivoNuevo);
+            FileWriter file = new FileWriter("tema1/Archivos/archivoNuevo.txt");
             file.write("ABCDEFGHIJKLMNOPQRSTUVWXYZ");
             file.close();
 
