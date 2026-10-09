@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE clubes [
+    <!ELEMENT clubes (equipos)>
+    <!ATTLIST clubes name CDATA #REQUIRED>
+    <!ELEMENT equipos (equipo+)>
+    <!ELEMENT equipo (nombre, anio_fundacion, estadio, ciudad, numero_jugadores)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT anio_fundacion (#PCDATA)>
+    <!ELEMENT estadio (#PCDATA)>
+    <!ELEMENT ciudad (#PCDATA)>
+    <!ELEMENT numero_jugadores (porteros, jugadores_de_campo)>
+    <!ELEMENT porteros (#PCDATA)>
+    <!ELEMENT jugadores_de_campo (#PCDATA)>
+]>
+
+<clubes name="Equipos Andaluces">
+    <equipos>
+        <equipo>
+            <nombre>Real Jaén CF</nombre>
+            <anio_fundacion>1922</anio_fundacion>
+            <estadio>Caja Rural La Victoria</estadio>
+            <ciudad>Jaén</ciudad>
+            <numero_jugadores>
+                <porteros>3</porteros>
+                <jugadores_de_campo>22</jugadores_de_campo>
+            </numero_jugadores>
+        </equipo>
+
+        <equipo>
+            <nombre>Málaga FC</nombre>
+            <anio_fundacion>1904</anio_fundacion>
+            <estadio>La Rosaleda</estadio>
+            <ciudad>Málaga</ciudad>
+            <numero_jugadores>
+                <porteros>2</porteros>
+                <jugadores_de_campo>23</jugadores_de_campo>
+            </numero_jugadores>
+        </equipo>
+    </equipos>
+</clubes>
